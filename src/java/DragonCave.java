@@ -1,6 +1,5 @@
 
 public class DragonCave {
-    //Game intro to display the game instructions
     private static void gameIntro() {
         System.out.println("You are in a land full of dragons. In front of you,");
         System.out.println("you see two caves. In one cave, the dragon is friendly");
@@ -13,6 +12,7 @@ public class DragonCave {
         gameIntro();
         Cave spookyCave = new Cave();
         Player adventurer = new Player();
-        spookyCave.caveEntrance(adventurer.walkInto());
+        adventurer.getPlayerInput();
+        System.out.println(spookyCave.caveEntrance(adventurer.getChoice()));
     }
 }
