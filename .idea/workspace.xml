@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="665b07d7-120f-423d-b5aa-909234f44521" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Cave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Cave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/DragonCave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/DragonCave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/CaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CaveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DragonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DragonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +63,61 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="DragonCave" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="DragonCave" />
+  <component name="RunManager" selected="JUnit.CaveTest">
+    <configuration name="CaveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DragonCave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CaveTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DragonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DragonCave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DragonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DragonCave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.getChoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DragonCave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="getChoice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.setChoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DragonCave" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="setChoice" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DragonCave" />
+        <item itemvalue="JUnit.CaveTest" />
+        <item itemvalue="JUnit.DragonTest" />
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.PlayerTest.getChoice" />
+        <item itemvalue="JUnit.PlayerTest.setChoice" />
       </list>
     </recent_temporary>
   </component>

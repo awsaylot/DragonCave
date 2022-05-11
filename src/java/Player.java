@@ -1,21 +1,21 @@
+import java.io.InputStream;
 import java.util.Scanner;
 
 public class Player {
-    private int playerChoice;
-    private Scanner getInput = new Scanner(System.in);
+    private static int playerChoice = 0;
 
 
-    public void setChoice(int choice) {
-        playerChoice = choice;
-    }
-    public int getChoice() {
+    public static int getChoice() {
         return playerChoice;
     }
-    public void getPlayerInput () {
-        try {
-            setChoice(getInput.nextInt());
+
+    public static void setChoice (InputStream playerInput) {
+        try{
+            Scanner scan = new Scanner(playerInput);
+            playerChoice = Integer.parseInt(scan.nextLine()) - 1;
         } catch (Exception e) {
-            System.out.println("You have not made a choice...");
+            System.out.println(e.getMessage());
         }
+
     }
 }

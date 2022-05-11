@@ -1,3 +1,5 @@
+import java.util.Scanner;
+import java.util.Random;
 
 public class DragonCave {
     private static void gameIntro() {
@@ -9,10 +11,11 @@ public class DragonCave {
     }
 
     public static void main(String[] args) {
+        Random seed = new Random();
         gameIntro();
-        Cave spookyCave = new Cave();
-        Player adventurer = new Player();
-        adventurer.getPlayerInput();
-        System.out.println(spookyCave.caveEntrance(adventurer.getChoice()));
+        Cave newCave = new Cave(seed.nextInt(1));
+        Player.setChoice(System.in);
+        String response = newCave.getDragon(Player.getChoice());
+        System.out.println(response);
     }
 }
